@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.header{
+  border:1px black solid;
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+  background-image:url(https://fotografias.lasexta.com/clipping/cmsimages02/2019/04/16/ACC84DDD-9104-4DFE-AF62-86F7BBF28C13/58.jpg);
+  background-size: contain;
+
+}
+.header h2{
+  font-family: 'Newsreader', serif;
+  margin-top:60px;
+}
+.header span{
+  color:darkcyan;
+}
+main{
+  width: 60%;
+  height: auto;
+  margin-top: 5%;
+}
+.main-header{
+  display: block;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  font-family: 'Newsreader', serif;
+   background: rgb(2, 2, 31);
+}
+.icon{
+  color: white;
+}
+.main-body{
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 250px;
+  height: 300px;
+  flex-wrap:wrap;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  z-index: -1;
+  /* border:1px gray solid; */
+}
+/* .card-title {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  opacity: .5;
+  background-color:rgba(0, 0, 0);
+}
+
+h3{
+  text-align: center;
+  color: white;
+} */
+.card-img img{
+  width: 250px;
+  height: 150px;
+  transition: 2s;
+  border-radius: 10px;
+}
+.card-img img:hover{
+  transform: scale(1.1);
+}
+.card-text p{
+  margin-top: 5px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.card-footer{
+  /* justify-content: center; */
+  margin-top: 10px;
+  width: 100%;
+}
+button{
+  color:black;
+  border: 1px solid black;
+  background: transparent;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 10px;
+  float: right;
+  margin-right: 5px;
+  padding: 0.75rem 1.25rem;
+  /* margin-top: 5px; */
+}
+button:hover{
+  color: white;
+  background: black;
+}

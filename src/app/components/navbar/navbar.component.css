@@ -1,0 +1,94 @@
+nav {
+  background-color: whitesmoke;
+  height: 3rem;
+  font-family: "Roboto Mono", monospace;
+}
+.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  padding: 0 100px;
+  align-items: center;
+}
+.nav-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav-links a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+  font-size: large;
+  cursor: pointer;
+}
+
+#btn-navbar {
+  display: none;
+}
+.nav-center .menu-icon {
+  display: none;
+}
+
+.nav-center .icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+.zoom {
+  transition-duration: 0.5s;
+}
+.zoom:hover {
+  transform: scale(1.2);
+  text-shadow: 0px 2px 2px;
+}
+@media (max-width: 858px) {
+  .logo {
+    margin-left: 10px;
+    padding: 0;
+  }
+}
+@media (max-width: 758px) {
+  .nav-center {
+    display: block;
+  }
+  .nav-center .menu-icon {
+    display: block;
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  .nav-links {
+    position: absolute;
+    display: none;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    background-color: black;
+    opacity: 0.9;
+  }
+  .nav-links a {
+    color: white;
+  }
+  .nav-links a:hover {
+    color: lightblue;
+  }
+  .zoom {
+    transition-duration: none;
+  }
+  .zoom:hover {
+    transform: none;
+    text-shadow: none;
+  }
+  #btn-navbar:checked ~ .nav-links {
+    display: block;
+  }
+  .nav-links a:active ~ .nav-links{
+    display: none;
+  }
+}

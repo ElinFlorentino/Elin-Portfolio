@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "Elin-portfolio"
+  "defaultProject": "Elin-portfolio",
+  "cli": {
+    "analytics": "b8510e1c-5bee-4e11-9658-889291821128"
+  }
 }
