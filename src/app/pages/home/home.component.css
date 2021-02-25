@@ -98,12 +98,15 @@ button:hover {
     display: block;
   }
   .card {
+    position: absolute;
     margin-left: 20px;
     padding: 5px 5px;
     margin-bottom: 10px;
     text-align: center;
+    z-index: -1;
   }
-  .card-footer{
+
+  .card-footer {
     display: flex;
     justify-content: center;
   }
