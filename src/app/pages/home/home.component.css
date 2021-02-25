@@ -96,16 +96,16 @@ button:hover {
 @media (max-width: 758px) {
   .main-body {
     display: block;
+    z-index: -1;
+    position: absolute;
   }
   .card {
-    position: absolute;
     margin-left: 20px;
     padding: 5px 5px;
     margin-bottom: 10px;
     text-align: center;
-    z-index: -1;
-  }
 
+  }
   .card-footer {
     display: flex;
     justify-content: center;
