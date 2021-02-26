@@ -19,6 +19,7 @@ nav {
   display: flex;
   list-style: none;
   align-items: center;
+  z-index: 1;
 }
 .nav-links a {
   text-decoration: none;
