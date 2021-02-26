@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.header {
+  border: 1px black solid;
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+  background-image: url(https://fotografias.lasexta.com/clipping/cmsimages02/2019/04/16/ACC84DDD-9104-4DFE-AF62-86F7BBF28C13/58.jpg);
+  background-size: contain;
+}
+.header h2 {
+  font-family: "Newsreader", serif;
+  margin-top: 60px;
+}
+.header span {
+  color: darkcyan;
+}
+main {
+  width: 65%;
+  height: auto;
+  margin-top: 5%;
+}
+.main-header {
+  display: block;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Newsreader", serif;
+  /* background: rgb(2, 2, 31); */
+}
+.main-header h2,
+icon {
+  line-height: 50px;
+}
+.icon {
+  color: white;
+}
+.main-body {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 250px;
+  height: 300px;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 10px 10px;
+  background:linear-gradient(#204581,#6478e6);
+  border-radius: 10px;
+
+  /* z-index: -1; */
+  /* border:1px gray solid; */
+}
+.card-img img {
+  width: 250px;
+  height: 150px;
+  transition: 2s;
+  border-radius: 10px;
+}
+.card-img img:hover {
+  transform: scale(1.1);
+}
+.card-text {
+  font-family: "Vollkorn", serif;
+  color: beige;
+}
+.card-text h3{
+  text-align: center;
+  padding: 0;
+}
+.card-text p {
+  margin-top: 5px;
+}
+.card-text a {
+  color: beige;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.card-footer {
+  /* justify-content: center; */
+  margin-top: 10px;
+  width: 100%;
+}
+button {
+  color: black;
+  border: 1px solid black;
+  background: transparent;
+  /* transition: 1s; */
+  cursor: pointer;
+  border-radius: 10px;
+  float: right;
+  margin-right: 5px;
+  padding: 0.75rem 1.25rem;
+  /* margin-top: 5px; */
+}
+button:active {
+  color: white;
+  background: black;
+}
+@media (max-width: 758px) {
+  main{
+    width: 100%;
+  }
+  .main-header{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .main-body {
+    display: block;
+    z-index: -1;
+    position: absolute;
+  }
+  .card {
+    left: 15%;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px 15px;
+  }
+  .card-footer {
+    display: flex;
+    justify-content: center;
+  }
+  /* .card-img img:hover {
+    transform: none;
+  } */
+}

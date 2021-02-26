@@ -88,5 +88,4 @@ nav {
   #btn-navbar:checked ~ .nav-links {
     display: block;
   }
-
 }
