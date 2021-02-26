@@ -10,7 +10,7 @@
   text-align: center;
   color: white;
   background-color: black;
-  background-image: url(src/assets/img/background.jpg.jpg);
+  background-image: url(src/assets/img/background.jpg);
   background-size: contain;
 }
 .header h2 {
