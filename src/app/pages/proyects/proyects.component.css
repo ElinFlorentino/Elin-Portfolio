@@ -10,7 +10,7 @@
   text-align: center;
   color: white;
   background-color: black;
-  background-image: url(https://fotografias.lasexta.com/clipping/cmsimages02/2019/04/16/ACC84DDD-9104-4DFE-AF62-86F7BBF28C13/58.jpg);
+  background-image: url(src/assets/img/background.jpg.jpg);
   background-size: contain;
 }
 .header h2 {
