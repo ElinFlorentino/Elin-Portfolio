@@ -17,15 +17,17 @@ main {
   width: 65%;
   height: auto;
   margin-top: 5%;
+  margin-bottom: 10px;
 }
 .main-header {
   display: block;
   height: 50px;
   width: 100%;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: white;
   font-family: "Newsreader", serif;
+  font-size: 20px;
   /* background: rgb(2, 2, 31); */
 }
 .main-header h2,
@@ -39,13 +41,13 @@ icon {
   flex-wrap: wrap;
   position: relative;
   padding: 10px 10px;
-  background:linear-gradient(#204581,#6478e6);
+  background: linear-gradient(#1e6eee, #64e66f);
   border-radius: 10px;
-  text-align: center;
+  overflow-wrap: break-word;
   /* z-index: -1; */
   /* border:1px gray solid; */
 }
-.card-img{
+.card-img {
   text-align: center;
   width: 100%;
   height: auto;
@@ -57,9 +59,9 @@ icon {
 .card-text {
   font-family: "Vollkorn", serif;
   color: beige;
-  font-size: 30px;
+  font-size: 20px;
 }
-.card-text h3{
+.card-text h3 {
   text-align: center;
   padding: 0;
 }
@@ -67,16 +69,15 @@ icon {
   margin-top: 5px;
 }
 .card-text a {
-  color: black;
+  color: white;
 }
 a {
   text-decoration: none;
-  color: black;
 }
 button {
-  color: black;
-  border: 1px solid black;
-  background: transparent;
+  color: white;
+  border: 1px solid rgb(204, 199, 199);
+  background: linear-gradient(#204581, #6478e6);
   /* transition: 1s; */
   cursor: pointer;
   border-radius: 10px;
@@ -87,10 +88,70 @@ button {
   /* margin-top: 5px; */
 }
 button:hover {
-  color: white;
-  background: black;
+  background: linear-gradient(#204581, #040a2e);
 }
 button:active {
-  color: black;
+  color: white;
   background: transparent;
+}
+.btn {
+  color: white;
+  border: 1px solid rgb(204, 199, 199);
+  background: linear-gradient(#204581, #6478e6);
+  /* transition: 1s; */
+  cursor: pointer;
+  border-radius: 10px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 5px;
+  padding: 0.75rem 1.25rem;
+  /* margin-top: 5px; */
+}
+.btn:hover {
+  background: linear-gradient(#204581, #040a2e);
+}
+.btn:visited {
+  background: linear-gradient(#204581, #6478e6);
+}
+
+@media (max-width: 758px) {
+  main {
+    width: 100%;
+    justify-content: center;
+  }
+  .main-header {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .icon {
+    margin-left: 10px;
+  }
+  .main-body {
+    display: block;
+    z-index: -1;
+    position: absolute;
+  }
+  .card {
+    width: 250px;
+    left: 12%;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px 15px;
+  }
+  .card-img {
+    width: 250px;
+    height: 150px;
+  }
+  .btn {
+    width: 100px;
+    margin-left: 130px;
+  }
+  button {
+    margin-left: 150px;
+  }
+  .btn,
+  button {
+    float: none;
+    display: block;
+  }
 }

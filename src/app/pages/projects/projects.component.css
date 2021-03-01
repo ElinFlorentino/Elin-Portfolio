@@ -18,23 +18,20 @@
   font-family: "Newsreader", serif;
   margin-top: 60px;
 }
-.header span {
-  color: darkcyan;
-}
+
 main {
   width: 65%;
   height: auto;
   margin-top: 5%;
 }
 .main-header {
-  display: block;
   height: 50px;
   width: 100%;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: white;
   font-family: "Newsreader", serif;
-  font-size: 30px;
+  font-size: 20px;
   /* background: rgb(2, 2, 31); */
 }
 .main-header h2,
@@ -54,11 +51,8 @@ icon {
   flex-wrap: wrap;
   position: relative;
   padding: 10px 10px;
-  background:linear-gradient(#1e6eee,#6478e6);
+  background: linear-gradient(#1e6eee, #64e66f);
   border-radius: 10px;
-
-  /* z-index: -1; */
-  /* border:1px gray solid; */
 }
 .card-img img {
   width: 250px;
@@ -73,7 +67,7 @@ icon {
   font-family: "Vollkorn", serif;
   color: beige;
 }
-.card-text h3{
+.card-text h3 {
   text-align: center;
   padding: 0;
 }
@@ -81,11 +75,11 @@ icon {
   margin-top: 5px;
 }
 .card-text a {
-  color: beige;
+  color: white;
 }
+
 a {
   text-decoration: none;
-  color: black;
 }
 .card-footer {
   /* justify-content: center; */
@@ -113,17 +107,18 @@ button:active {
   background: transparent;
 }
 @media (max-width: 758px) {
-  main{
+  main {
     width: 100%;
   }
-  .main-header{
+  .main-header {
     width: 80%;
     margin-left: 10%;
   }
+  .icon {
+    margin-left: 10px;
+  }
   .main-body {
     display: block;
-    z-index: -1;
-    position: absolute;
   }
   .card {
     left: 15%;

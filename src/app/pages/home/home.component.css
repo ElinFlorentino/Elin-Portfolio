@@ -1,13 +1,11 @@
 .container {
   height: 100vh;
   justify-content: center;
-  border: 1px white solid;
   background-image: url(src/assets/img/background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-size: 30px;
-  z-index: -1;
 }
 .header {
   text-align: center;

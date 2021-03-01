@@ -5,7 +5,7 @@
 <div class="container">
   <main>
     <div class="main-header">
-      <h2>Projects <i class="icon ion-md-cog"></i>
+      <h2>Project <i class="icon ion-md-cog"></i>
       </h2>
     </div>
     <div class="card">
@@ -14,15 +14,15 @@
       </div>
       <div class="card-text">
         <a href="#">
-          <h3>{{project.nombre}}</h3>
+          <h3><b>{{project.nombre}}</b></h3>
         </a>
-        <p>Description: {{project.descripcion}}</p>
-        <p>Tecnologias:{{project.tecnologias}}</p>
-        <p>Framework:{{project.framework}}</p>
-        <a href="{{project.link}}" target="blank">Ir a Proyecto</a>
+        <p><b>Description: </b> {{project.descripcion}}</p>
+        <p><b>Tecnologias: </b>{{project.tecnologias}}</p>
+        <p><b>Framework: </b>{{project.framework}}</p>
 
       </div>
     </div>
-    <button (click)="goBack()">Go back</button>
+    <button  (click)="goBack()">Go back</button>
+    <a class="btn" href="{{project.link}}" target="blank">Ir a Proyecto</a>
   </main>
 </div>
