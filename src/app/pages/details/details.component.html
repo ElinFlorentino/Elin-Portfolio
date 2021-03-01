@@ -1,0 +1,28 @@
+<div class="header">
+  <!-- <H2>Hello Im <span>Elin Florentino.</span><br>
+    Im a full-stack web developer</H2> -->
+</div>
+<div class="container">
+  <main>
+    <div class="main-header">
+      <h2>Projects <i class="icon ion-md-cog"></i>
+      </h2>
+    </div>
+    <div class="card">
+      <div class="card-img">
+        <img src={{project.imgRuta}} alt="img">
+      </div>
+      <div class="card-text">
+        <a href="#">
+          <h3>{{project.nombre}}</h3>
+        </a>
+        <p>Description: {{project.descripcion}}</p>
+        <p>Tecnologias:{{project.tecnologias}}</p>
+        <p>Framework:{{project.framework}}</p>
+        <a href="{{project.link}}" target="blank">Ir a Proyecto</a>
+
+      </div>
+    </div>
+    <button (click)="goBack()">Go back</button>
+  </main>
+</div>

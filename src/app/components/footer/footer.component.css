@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(94, 106, 131);
+  font-family: "Roboto Mono", monospace;
+  height: 80px;
+  width: 100%;
+  bottom: 0;
+
+}
+.container h3{
+  margin-top: 20px;
+}

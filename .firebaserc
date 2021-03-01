@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "elin-portfolio-95b63": {
+      "hosting": {
+        "Elin-portfolio": [
+          "elin-portfolio-95b63"
+        ]
+      }
+    }
+  }
+}

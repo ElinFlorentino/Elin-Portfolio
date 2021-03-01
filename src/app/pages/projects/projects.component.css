@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   height: auto;
+  margin-bottom: 15px;
 }
 .header {
   border: 1px black solid;
@@ -33,18 +34,19 @@ main {
   margin-bottom: 10px;
   color: white;
   font-family: "Newsreader", serif;
+  font-size: 30px;
   /* background: rgb(2, 2, 31); */
 }
 .main-header h2,
 icon {
-  line-height: 50px;
+  margin-top: 20px;
 }
 .icon {
   color: white;
 }
 .main-body {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .card {
   width: 250px;
@@ -52,7 +54,7 @@ icon {
   flex-wrap: wrap;
   position: relative;
   padding: 10px 10px;
-  background:linear-gradient(#204581,#6478e6);
+  background:linear-gradient(#1e6eee,#6478e6);
   border-radius: 10px;
 
   /* z-index: -1; */
@@ -102,9 +104,13 @@ button {
   padding: 0.75rem 1.25rem;
   /* margin-top: 5px; */
 }
-button:active {
+button:hover {
   color: white;
   background: black;
+}
+button:active {
+  color: black;
+  background: transparent;
 }
 @media (max-width: 758px) {
   main{
