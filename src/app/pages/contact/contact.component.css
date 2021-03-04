@@ -15,7 +15,10 @@
   transform: translate(-50%, -50%);
   color: white;
 }
-
+a{
+  text-decoration: none;
+  color:white;
+}
 .btn {
   margin-top: 20px;
   color: white;
@@ -29,4 +32,10 @@
 }
 .btn:hover {
   background: linear-gradient(#204581, #040a2e);
+}
+@media (max-width: 758px) {
+
+  .container{
+    font-size: 15px;
+  }
 }

@@ -21,7 +21,8 @@ const routes: Routes = [
   },
   {
     path:"projects/:id",component:DetailsComponent
-  }
+  },
+  { path: '**', component:HomeComponent }
 ];
 
 @NgModule({
